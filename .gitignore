@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore everything
+*
+
+# Except the following files
+!app_gr.py
+!requirements.txt
+!brain_tumor_finetuned.h5
