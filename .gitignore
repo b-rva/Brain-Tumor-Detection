@@ -176,8 +176,12 @@ cython_debug/
 # Ignore everything
 *
 
+# Allow folder traversal
+!*/
+
 # Except the following files
 !app_gr.py
 !requirements.txt
 !brain_tumor_finetuned.h5
 !README.md
+
